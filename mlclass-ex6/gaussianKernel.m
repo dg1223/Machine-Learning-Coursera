@@ -16,7 +16,12 @@ sim = 0;
 %
 %
 
+% compute numerator and denominator for the gaussiuan function
+num = sum((x1 - x2).^2);
+den = 2*sigma^2;
 
+% Gaussian kernel
+sim = exp(-num/den);
 
 
 
