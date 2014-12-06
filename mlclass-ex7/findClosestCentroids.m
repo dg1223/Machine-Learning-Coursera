@@ -21,8 +21,28 @@ idx = zeros(size(X,1), 1);
 % Note: You can use a for-loop over the examples to compute this.
 %
 
+distance = 0;
+min_distance = 0;
 
-
+% X and centroids are matrices which hold values of datapoints and avg of corresponding
+% datapoints respectively. These are not coordinates! only solution: Matrix multiplication
+for i = 1:size(X,1),
+	%i
+	for j = 1:size(centroids,1),
+		%j
+		if j == 1			% both distances are equal on the 1st iteration
+			distance = (X(i,:) - centroids(j,:)) * (X(i,:) - centroids(j,:))';
+			min_distance = distance;
+			idx(i) = j;		% store centroid index
+		else				% compare from 2nd iteration
+			distance = (X(i,:) - centroids(j,:)) * (X(i,:) - centroids(j,:))';
+			if distance < min_distance;
+				min_distance = distance;
+				idx(i) = j;
+			end			
+		end
+	end
+end
 
 
 
