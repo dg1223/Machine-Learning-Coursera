@@ -21,9 +21,12 @@ S = zeros(n);
 %
 
 
+% covariance matrix
+Sigma = zeros(n);
+Sigma = (X'*X)/m;
 
-
-
+% eigenvectors
+[U, S, V] = svd(Sigma);
 
 
 % =========================================================================

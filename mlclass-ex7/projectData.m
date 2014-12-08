@@ -18,9 +18,8 @@ Z = zeros(size(X, 1), K);
 %                    projection_k = x' * U(:, k);
 %
 
-
-
-
+Z = X * U(:,1:K);	% multiply according to matrix dimensions
+					% goal is to reduce the dimension of X
 % =============================================================
 
 end

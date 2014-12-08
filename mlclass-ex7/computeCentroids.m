@@ -1,5 +1,5 @@
 function centroids = computeCentroids(X, idx, K)
-%COMPUTECENTROIDS returs the new centroids by computing the means of the 
+%COMPUTECENTROIDS returns the new centroids by computing the means of the 
 %data points assigned to each centroid.
 %   centroids = COMPUTECENTROIDS(X, idx, K) returns the new centroids by 
 %   computing the means of the data points assigned to each centroid. It is
@@ -26,15 +26,22 @@ centroids = zeros(K, n);
 % Note: You can use a for-loop over the centroids to compute this.
 %
 
+% This code can be optimized for better efficiency %
+counter = 0;
 
-
-
-
-
-
+for i = 1:K,
+	for j = 1:length(idx),
+		if idx(j) == i,		% not efficient (more efficient method: do not
+							% iterate over the index that has already been used)
+			counter = counter + 1;		% keep count of associated training samples
+			centroids(i,:) = centroids(i,:) + X(j,:);
+		end	
+	end
+	centroids(i,:) = centroids(i,:)/counter;	% as per formula (step 2)
+	counter = 0;		% reset counter for next centroid
+end
 
 % =============================================================
-
 
 end
 
