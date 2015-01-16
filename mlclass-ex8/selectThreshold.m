@@ -10,6 +10,14 @@ bestEpsilon = 0;
 bestF1 = 0;
 F1 = 0;
 
+% initialize more variables
+predictions = zeros(length(pval));	% contains outlier predictions for cv set
+TP = 0;			% number of true positives
+FP = 0;			% number of false positives
+FN = 0;			% number of false negatives
+precision = 0;
+recall = 0;
+
 stepsize = (max(pval) - min(pval)) / 1000;
 for epsilon = min(pval):stepsize:max(pval)
     
@@ -23,17 +31,13 @@ for epsilon = min(pval):stepsize:max(pval)
     % Note: You can use predictions = (pval < epsilon) to get a binary vector
     %       of 0's and 1's of the outlier predictions
 
-
-
-
-
-
-
-
-
-
-
-
+	predictions = pval < epsilon;
+	TP = sum((predictions == 1) & (yval == 1));
+	FP = sum((predictions == 1) & (yval == 0));
+	FN = sum((predictions == 0) & (yval == 1));
+	precision = TP/(TP + FP);
+	recall = TP/(TP + FN);
+	F1 = (2*precision*recall)/(precision + recall);
 
     % =============================================================
 

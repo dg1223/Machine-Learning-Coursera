@@ -20,7 +20,7 @@ Theta_grad = zeros(size(Theta));
 % ====================== YOUR CODE HERE ======================
 % Instructions: Compute the cost function and gradient for collaborative
 %               filtering. Concretely, you should first implement the cost
-%               function (without regularization) and make sure it is
+%               function (without regularization) and make sure it
 %               matches our costs. After that, you should implement the 
 %               gradient and use the checkCostFunction routine to check
 %               that the gradient is correct. Finally, you should implement
@@ -40,8 +40,17 @@ Theta_grad = zeros(size(Theta));
 %                     partial derivatives w.r.t. to each element of Theta
 %
 
+% Cost
 
+% do not forget to multiply Y by R to mask out the actual ratings of the 
+% movies that the users have not rated yet
 
+J = sum(sum((((X * Theta').*R) - Y.*R).^2))/2 + ...
+	(lambda/2)*(sum(sum(X.^2))) + (lambda/2)*(sum(sum(Theta.^2)));
+
+% Gradient
+X_grad = (((X * Theta').*R) - Y.*R)*Theta + lambda*X;
+Theta_grad = (((X * Theta').*R) - Y.*R)'*X + lambda*Theta;
 
 
 
