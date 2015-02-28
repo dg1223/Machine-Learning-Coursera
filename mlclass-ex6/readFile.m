@@ -1,18 +1,2 @@
-function file_contents = readFile(filename)
-%READFILE reads a file and returns its entire contents 
-%   file_contents = READFILE(filename) reads a file and returns its entire
-%   contents in file_contents
-%
-
-% Load File
-fid = fopen(filename);
-if fid
-    file_contents = fscanf(fid, '%c', inf);
-    fclose(fid);
-else
-    file_contents = '';
-    fprintf('Unable to open %s\n', filename);
-end
-
-end
-
+.,ÓW¸;PK.Çµ§¯câ°˜Ÿàºß"O3É!†È^?«ï ~ÄÆPÛí›wt“VŒº'"NIp±•(ãİÆÄßº:óáœá±š×İ§ıõ¢z:¢Öé§KHÎí¯{Ô*9ä¤etá"«†äÄWbM{Ú»aN?tİ¶~¶IáÚ+Føå’f«Ë¸š&æÇ®f¹-‚$¿å&¬–uŒ#Ø-«<Z	á9ÆµœmšÎ¾ ÀVæĞ•°Â¢I©¨¯d´\D!B9;›ı2_!9ÚYÃK(äÖ€ÎSãúz..°=S2¯	æ–šçË°Ç£C²×ÁÌDtAEÿÖú€î/Æı§×ú˜{ûî«p†¥fÓ6jÎ{,`K:™Sf†²WE¸ê~²Û±’Y·¶ô2X§âŒƒ¿XÏó÷qÏš7Ë¦œšF$eÉ¥ºwg­„ïÃË±0§sIå†“øè$ôjSjY†Y"†.¾{Lçí¥$±Ğa(ÕÑ¬¨‰h}­>M¸ÿçìYu½{¿Ñhçå€ÚŠ„ó|ÙüÅ Y
+sˆ/äï12B«oËú~ë/ÎF¡l§2Äÿ¶8B|ë‡øk¸ë»ÁBÈjY’ÛçÑñ¨äÄbzšAI+åÙ±k´mlÓ¹ğUëğÔ„‰È+·î7‘s³™CÇ¬’\—M~Gåx¡9p6hñx§{¤LÌˆCŸ;9¨9kÌì1Œõ~i*Ça^‚êw¢¿o·E¬ãÖ×*]íáˆ^ãÅ€¸êMŞŞÔ4Éû#·Â5ÚƒŞ×”šÔ¼Ú†Ä-½&»1DX8!oÒ<Ûãà·£×è‹nÍË#Ÿ)7‘

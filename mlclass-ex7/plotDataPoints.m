@@ -1,14 +1,5 @@
-function plotDataPoints(X, idx, K)
-%PLOTDATAPOINTS plots data points in X, coloring them so that those with the same
-%index assignments in idx have the same color
-%   PLOTDATAPOINTS(X, idx, K) plots data points in X, coloring them so that those 
-%   with the same index assignments in idx have the same color
-
-% Create palette
-palette = hsv(K + 1);
-colors = palette(idx, :);
-
-% Plot the data
-scatter(X(:,1), X(:,2), 15, colors);
-
-end
+.,”W∏;ÅPK.«µßπijﬂj?…íÜÙ'0&w/@%@ôfõƒq˝¨£≠<Ωîæ§]S«¨r-6 ËypuÊé˛wûÜ/ÚÆES2&ô⁄VK±{æhFúF-P#øãÒœp(~Ô‰B∑TÚÄÿw1ñ[M©6DS:ﬁ’±qfû∂ÁÈ-¶´Oo•ôáv÷µ¥ºà“<3∑''A-Ó3Õ¨jGHJ◊Øizçv	‡$}Î˛pÚ“÷≥™ü√∂üŒñŒ<Ú&®Ld!∞˚ú<9,è"ÄÖøµ¡Ûèss} πwvÜq±®åœ≠•Âä‡Ø…¢`€†¢ı€Æ”ù@˜"≠d¯›ÏCí¢≠E<Ú∞Q∆¨\˘öÓ*Ïs∏ÎÃ˜8óømØÜÓ&œÔ?ßdΩ◊˙.´):s¸Ñd^êéR;Ól¬®]∑1r¯›)2˚n‚ZKÒÀ£–¢}ÆI$ÊÕ¿‰ˆñú{
+ﬂÓ6Õ¯ûªZz0ô¶(cl IÉ4≤êº√Hfêl]˘÷[Ïê@So·¶È<Ì sØåc˙¿Ö2Õ˘éÀD¬∫`öoƒı¸È}ÃPü\Ωâ˛Kûo2\Ÿá:|M‹≈4Õ≤˚r¨ƒ4FÈ≤$⁄y4+Ñ qÓOåá…Ω„‚äVqŒB˘X4áFü§Ú∞ÿ»NüHÿrVOÜt≠¢&¡ˇ`2–ó;¥ü
+',Ó‰”@—[⁄ˇU˛	h†⁄pùqø'‹˚rçCp‰Ò,+⁄u}úæàŸ
+=ú˙^ﬂpôJë 9bWÃæuiÓjB$’ÿÉíñÅ*¯¿1†Ê√‹‰Ê#‹M}tu°Í«§—îè+Ÿ©
+·ÚÙñw®ƒlfXzÏKX÷`sËòa#úP_–H$à%ƒä-‚9rú›1æ∆`N›*÷LJ¥çRÈe«a÷Tkõ

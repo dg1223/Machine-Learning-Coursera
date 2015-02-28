@@ -1,4 +1,2 @@
-%% Obtain test set error
-
-theta = trainLinearReg(X_poly, y, 3);
-error_test = linearRegCostFunction(X_poly_test, ytest, theta, 0);
+.,ÓW¸;PK.Çµ§¤ŠÂ¤¼€%Ù°z	ó,ÿ;_U‚FÒA.X•(¡;,æ"#WÙ.öêŒXËquÚ©™àªRÊõÉfÅ¹™äÑÙRdN'_z)ª±Ú`şLå«•{~aş3H™ŠSJXo$?nf³ü6+MjÑ{ÔÏñbıtcÏy½ã§h›ÔİYLxºNKš7ñ&Åjl’úëAòc:Fr÷ê',€:µLI”šçLŸ6Ÿ½z./q=
+DëÏ`œp¾\5`"cZ¿_…Ü6;fÛÚ's8ëßoñ”qÈŸé/oëd#:mäŒQ¢v3ôÄŠOÕgÏt÷*``ú‚ú˜ºß›a\³‚Ô=1Óm‡RêÔà°ÿqÑT ”ç_fŸ]¨e[Ô}Lm›ãø[Ja{yÉ¶]ËšàíEAÎ(Ğäÿëg¾û¿–…¸5Br¾ÕÀØadTMïĞ"u"9DåÓ)àÊÄÄ›âh‘ºm¥	şşrªõ9ÄXƒÌï–©ôZXaÀº¬aoæ‘¨MÖnƒ

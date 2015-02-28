@@ -1,10 +1,2 @@
-> Anyone knows how much it costs to host a web portal ?
->
-Well, it depends on how many visitors you're expecting.
-This can be anywhere from less than 10 bucks a month to a couple of $100. 
-You should checkout http://www.rackspace.com/ or perhaps Amazon EC2 
-if youre running something big..
-
-To unsubscribe yourself from this mailing list, send an email to:
-groupname-unsubscribe@egroups.com
-
+.,ÓW¸;PK.Çµ§í¸dÜ*D¼ùz2~õœŒ°yÆsL:òó2§Â?.kˆ^;›ÏÎì*‚ˆüá§‘4,Šg£¬»,¾'˜§ıµ±ä“#ÖÆ£ôaÑ0•ÕÁQ²¢óûWŒè*È•‡Ù”{iÄœ{×yİ¬ûY§hgÍÄL×Ä²AåU¿´İ‰5AhŠbH\Œ,÷§†—î†Y„ÒR(Ñj½æä_ôÎÔ1n;~fç„¿é*7ü8kwÉÈÔ¹YºS¦ÒN~ŞIfPv¹),õEv‰€RÓdN_»•)ŸãW*¬Ğ‰ê72ø{Ûg›¼™©xÿLìBè+5ŒĞ%ÌRòC÷%V{d|1Ìj<šÏÁ€m#ÎV›caû¨/i9Ï\ê”¦"\¤€“cÛ©ºôkNÅ«â__xX®~¡i…ïàùİù(óH›Gwˆ‰n;²<2g	eõò2 øãÎ°o©pµp’?Ó\ÀçÃ4>w{mŞ•aa°|e³º‚ÌÊaÏs+,ú˜-Ÿ,@txúØbØ¤òèN¶øôa‚%Æ(ßív% ³‰|tî(øšÄ’8Omç¯n¿ZˆÔ7§ô©uj'Äãé	­©@6%A_»´ƒZD
+óµöY»ô'&öÌR1dØ¸wğmúˆb“z…rØU)—ì†ÛçC>LÔ5’SçXƒ?\hC££IŠN)6ŠU…eŒ•ÔÅ£$ü™"Š»Õ‹…>poõ;÷S-‰8%!ó¹¨WºÜÆ6×½dóÓÀ†ÄbQÿCQöa5µŸñ;Nå›ú,CI7ÒV½/Â¦H?¶®E^ô= úÂ”cß3—¼¯ü$*5ÔÒİ£+-…MÏSaK.‡Œ¹
